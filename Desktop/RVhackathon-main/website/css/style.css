@@ -1,0 +1,50 @@
+#scrolling-div{
+   
+    border-radius: 20px;
+    margin: auto;
+  margin-top: 130px;
+  border: 1px solid black;
+  background-color: white;
+
+ 
+}
+
+.chats{
+    display: flex;
+    background-color: aquamarine;
+    /* align-self: left; */
+}
+.chatsmine{
+    background-color: red;
+  
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  #heading{
+    margin-top: 10px;
+   text-align: center;
+   color: bisque;
+    
+  }
+
+  .input{
+    display: flex;
+    justify-content: center;
+  }
